@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mynesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="full-container">
+        
+        <div class="home--container">
+            <h1 class="game--name">Minesweeper Game</h1>
+            <button class="start--btn">Start Game</button>
+        </div>
+    
+        
+        <div class="main--container">
+            <div id="board">
+                
+                <div class="navbar">
+                    
+                    <div class="levels">
+                        <select name="levels" id="levels">
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                    </div>
+                    
+                    
+                    <div class="flag">
+                        🚩 <span class="flagCnt">7</span>
+                    </div>
+
+                    
+                    <div class="close">
+						<img class="close-btn" src="assets/exit.svg"/>
+                    </div>
+                </div>
+                
+               
+                <div class="playground">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
